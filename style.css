@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:lightgray;
+}
+
+.container {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 1000px;
+    background-color: #011632;
+    text-align: center;
+}
+
+.text {
+    margin: 30px;
+}
+
+.form-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 400px;
+    background: whitesmoke;
+    color: rgb(61, 61, 61);
+    border: 4px solid yellow;
+}
+
+h1, h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.text-pass {
+    color: white;
+}
+
